@@ -21,7 +21,8 @@ namespace JogoDasPalavras.WinApp
             this.palavraSecreta = FormatarPalavra(palavras[aleatorio.Next(0, palavras.Length)]).ToCharArray();
             this.letrasDescobertas = new String('_', palavraSecreta.Length).ToCharArray();
             this.tentativas = 5;
-           
+         
+            
         }
 
         public string ObterResultado()

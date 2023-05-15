@@ -23,7 +23,7 @@ namespace JogoDasPalavras.WinApp
             {
                 botao.Click += EscolherLetra;
             }
-            btnResetar.Click += ResetarEvento;
+            btnStart.Click += ResetarEvento;
         }
 
         public void EscolherLetra(object? sender, EventArgs e)
@@ -130,10 +130,7 @@ namespace JogoDasPalavras.WinApp
             }
         }
 
-        private void ResetarEvento(object? sender, EventArgs e)
-        {
-            Resetar();
-        }
+        
 
         private void btnResetar_Click(object sender, EventArgs e)
         {
