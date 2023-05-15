@@ -576,6 +576,7 @@
             panPalavras.Controls.Add(label3, 2, 0);
             panPalavras.Controls.Add(label2, 1, 0);
             panPalavras.Controls.Add(label1, 0, 0);
+            panPalavras.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             panPalavras.Location = new Point(66, 65);
             panPalavras.Name = "panPalavras";
             panPalavras.RowCount = 5;
@@ -781,6 +782,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 192, 192);
             ClientSize = new Size(800, 450);
             Controls.Add(label26);
             Controls.Add(btnResetar);
@@ -788,7 +790,7 @@
             Controls.Add(panelBotoes);
             Controls.Add(panPalavras);
             Name = "Form1";
-            Text = "s";
+            Text = "Jogo Das Palavras";
             statusStrip1.ResumeLayout(false);
             statusStrip1.PerformLayout();
             panelBotoes.ResumeLayout(false);
